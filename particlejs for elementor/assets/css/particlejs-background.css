@@ -1,0 +1,18 @@
+.has-particlejs-background {
+    position: relative;
+    overflow: hidden;
+}
+
+.particlejs-background {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.has-particlejs-background > .elementor-container {
+    position: relative;
+    z-index: 1;
+}
